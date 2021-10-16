@@ -1,6 +1,9 @@
 .Home {
+  border-radius: 25px;
   height: 100%;
-  background-color: blue;
+  width: 100%;
+  box-shadow: 0px 10px 5px grey;
+  background-color: white;
 }
 
 .subOptions {

@@ -7,13 +7,16 @@ import "./home.css";
 
 function Home() {
   return (
-    <div className="Home">
-      <Header className="header" />
-      <div className="subOptions">
-        <FreeSubscription className="freeSub" />
-        <PremiumSubscription className="premiumSub" />
+    <div>
+      <div className="Home">
+        <Header className="header" />
+        <div className="subOptions">
+          <FreeSubscription className="freeSub" />
+          <PremiumSubscription className="premiumSub" />
+        </div>
+        <Footer className="Footer" />
       </div>
-      <Footer className="Footer" />
+      <div className="halfshadow"></div>
     </div>
   );
 }
