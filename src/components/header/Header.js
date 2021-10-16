@@ -6,7 +6,8 @@ export default function Header() {
   return (
     <section className="headerContainer">
       <div>
-        <h1>Header Component</h1>
+        <h1 className="title">Advanced Guitar Lessons</h1>
+        <h4 className="description">Level up your guitar playing</h4>
       </div>
     </section>
   );
