@@ -1,0 +1,13 @@
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  flex-grow: 0;
+  margin-bottom: 3vw;
+}
+
+.pic {
+  height: 10vw;
+  width: 10vw;
+}
