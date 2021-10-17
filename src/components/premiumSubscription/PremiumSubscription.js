@@ -7,7 +7,7 @@ export default function PremiumSubscription() {
   return (
     <section className="premiumSubContainer">
       <div>
-        <h1 className="title">Premium Subscription</h1>
+        <h1 className="titleCard">Premium Subscription</h1>
         <PremiumPic className="picture" />
         <ul
           className="listItem"
@@ -15,6 +15,7 @@ export default function PremiumSubscription() {
         >
           <li className="item">Online Chord Book & Scale Chart</li>
           <li className="item">Online tabs</li>
+          <li className="item">Monthly online group meetings</li>
           <li className="item">Play along tracks </li>
           <li className="item">
             Online lessons with any of our Professionals (unlimited)

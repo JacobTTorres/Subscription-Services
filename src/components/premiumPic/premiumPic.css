@@ -10,4 +10,5 @@
 .pic {
   height: 10vw;
   width: 10vw;
+  border-radius: 50%;
 }
