@@ -7,14 +7,20 @@ import "./footer.css";
 export default function Footer() {
   return (
     <section className="footerContainer">
+      <h3 className="footerTitle">Sorce Code & Contact</h3>
       <div className="contactContainer">
         <div className="gitHub">
-          <FontAwesomeIcon icon={faCode} />
-          https://github.com/JacobTTorres/Subscription-Services
+          <FontAwesomeIcon className="icon" icon={faCode} />
+          <a
+            className="links"
+            href="https://github.com/JacobTTorres/Subscription-Services"
+          >
+            GitHub
+          </a>
         </div>
         <div className="email">
-          <FontAwesomeIcon icon={faEnvelope} />
-          jacobttorres@hotmail.com
+          <FontAwesomeIcon className="icon" icon={faEnvelope} />
+          <p className="myEmail">jacobttorres@hotmail.com</p>
         </div>
       </div>
     </section>
